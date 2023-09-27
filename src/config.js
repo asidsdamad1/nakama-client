@@ -1,6 +1,6 @@
 const CONFIG = {
-    WIDTH: 414,
-    HEIGHT: 736
+    WIDTH: 640,
+    HEIGHT: 960
 }
 
 export default CONFIG

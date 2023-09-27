@@ -1,4 +1,5 @@
 import CONFIG from "../config"
+import Nakama from "../nakama";
 
 export default class Matchmaking extends Phaser.Scene {
     constructor() {
@@ -14,12 +15,8 @@ export default class Matchmaking extends Phaser.Scene {
     }
 
     create() {
-        this.add
-            .text(CONFIG.WIDTH / 2, 125, "Searching for an opponent...", {
-                fontFamily: "Arial",
-                fontSize: "24px",
-            })
-            .setOrigin(0.5);
+
+
 
         this.anims.create({
             key: "spinnerAnimation",
